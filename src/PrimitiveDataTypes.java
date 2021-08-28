@@ -17,6 +17,8 @@
  * yaşam süresi kapsamlarıyla aynıdır. Fakat bu diğer veri türündeki değişkenler
  * için geçerli değildir. İlkel olmayan veri türündeki değişkenler kapsam dışına
  * çıksa da hafızada kalmaya devam edebilir.
+ *
+ * 1BYTE = 8 BIT
  */
 
 public class PrimitiveDataTypes {
