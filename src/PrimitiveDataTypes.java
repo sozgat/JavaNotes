@@ -11,6 +11,12 @@
  * Hafızada kaplayacağı alanın büyüklüğü belirlidir.
  * Alabileceği değerler belli bir aralıkla sınırlandırılmıştır.
  *
+ *
+ * İlkel veri türüne sahip değişkenler kapsam dışına çıkınca otomatik olarak
+ * hafızadan da silinirler. Diğer bir deyişle, ilkel veri türüne sahip değişkenlerin
+ * yaşam süresi kapsamlarıyla aynıdır. Fakat bu diğer veri türündeki değişkenler
+ * için geçerli değildir. İlkel olmayan veri türündeki değişkenler kapsam dışına
+ * çıksa da hafızada kalmaya devam edebilir.
  */
 
 public class PrimitiveDataTypes {
